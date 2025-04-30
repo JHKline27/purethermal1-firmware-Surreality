@@ -1,4 +1,4 @@
-# PureThermal 1/2/Mini Reference Firmware
+# PureThermal 1/2/3/Mini/Pro Reference Firmware
 
 [![Build Status](https://travis-ci.org/groupgets/purethermal1-firmware.svg?branch=master)](https://travis-ci.org/groupgets/purethermal1-firmware)
 
@@ -8,11 +8,14 @@ GroupGets's [GetLab](https://groupgets.com/manufacturers/getlab). It is based ar
 various IO capabilities as well as an open source firmware to make it easy integrate a FLIR Lepton into any environment.
 
 
-## Purpose of This Project
+Important Note
+============
+GroupGets does not provide coding, firmware, or software support of any kind and will not respond to related requests. All software and firmware provided by GroupGets are offered solely as examples or potential starting points. These repositories may be outdated and are not guaranteed to function as intended. Forking this project and making your own modifications to this firmware is encouraged.
 
-It is intended that you use this firmware as a starting point for you own applications. For many applications
-where you wish to process thermal image data on a host PC, you can probably use pre-built binaries of this firmware
-and use as-is. For others, forking this project and making your own modifications to this firmware is encouraged.
+We do not accept returns or offer replacements due to issues related to software, firmware, or code compatibility.
+
+The software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software. Additionally Teledyne FLIR-provided source code is being released by GroupGets to this project under the
+express written consent of Teledyne FLIR, and covered by the project's license, with the expectation that no warranties or support of any kind will be provided by Teledyne FLIR. This firmware is licensed under The MIT License (MIT), see `LICENSE` file for details.
 
 
 ## Building the Firmware
@@ -245,13 +248,3 @@ You should see print statements appear in the debugger console view.
 ## For More Information
 
 Refer to [PureThermal 1 development wiki](https://github.com/groupgets/purethermal1-firmware/wiki).
-
-
-## Licensing and Support
-
-This firmware is licensed under The MIT License (MIT), see `LICENSE` file for details.
-
-Inquiries for support should be directed at this project's maintainers, GroupGets, LLC (GroupGets), and not FLIR
-Systems, Inc. (FLIR). Additional FLIR-provided source code is being released by GroupGets to this project under the
-express written consent of FLIR, and covered by the project's license, with the expectation that no warranties
-or support of any kind will be provided by FLIR.
