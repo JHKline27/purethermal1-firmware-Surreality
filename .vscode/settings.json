@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.compilerPath": "//wsl.localhost/Ubuntu/usr/bin/arm-none-eabi-gcc",
+    "files.associations": {
+        "lepton_i2c.h": "c"
+    }
+}
