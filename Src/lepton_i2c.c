@@ -420,9 +420,9 @@ HAL_StatusTypeDef init_lepton_command_interface(void)
 
   //in theory these calls after the set_startup_defaults() and set_lepton_type() should disable agc/radiometry and enable raw14
   // then when the command interface is initialized in main we'll have the right settings
-  disable_lepton_agc();
-  enable_raw14();
-  LEP_SetRadTLinearEnableState(&hport_desc, LEP_RAD_DISABLE);
+  //disable_lepton_agc();
+  //enable_raw14();
+  //LEP_SetRadTLinearEnableState(&hport_desc, LEP_RAD_DISABLE);
 
   return HAL_OK;
 }

@@ -141,7 +141,8 @@ PT_THREAD( lepton_task(struct pt *pt))
 				PT_YIELD_UNTIL(pt, g_uvc_stream_status != 0 || (HAL_GetTick() - transferring_timer) > 500);
 			}
 
-			g_format_y16 = (videoCommitControl.bFormatIndex == VS_FMT_INDEX(Y16));
+			//g_format_y16 = (videoCommitControl.bFormatIndex == VS_FMT_INDEX(Y16));
+			g_format_y16 = 1; // force y16 for now
 
 			if (g_format_y16)
 			{
